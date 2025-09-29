@@ -23,8 +23,8 @@ transform color_glow:
 
 # 方法2：渐变发光 放大
 transform gradient_glow:
-    alpha 1.0
-    matrixcolor TintMatrix("#ffffff")
+    alpha 1.0 # 设置初始透明度为1
+    matrixcolor TintMatrix("#ffffff") # 设置初始颜色为白色
     
     # on hover:
     #     parallel:
